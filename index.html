@@ -10,6 +10,7 @@
       rel="stylesheet"
       href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css"
     />
+
     <script src="./assets/js/main.js"></script>
   </head>
   <body class="m-0">
@@ -121,16 +122,14 @@
       <div
         class="flex items-center col-span-2 bg-laptop bg-no-repeat bg-center bg-top bg-contain"
       >
-        <h1 class="px-80 pb-80">
+        <h1 class="px-80 pb-80 text-center">
           <span>
             <span class="text-red"
               ><i class="fa fa-chevron-left" aria-hidden="true"></i>h1<i
                 class="fa fa-chevron-right"
                 aria-hidden="true"
-              ></i
-            ></span>
-            Bonjour! Je m'appelle Axel et je vous présente mon Portfolio où vous
-            trouverez mes différents projets.
+              ></i></span
+            >Bonjour! <span class="auto-type text-blue"></span>
 
             <span class="text-red text">
               <i class="fa fa-chevron-left" aria-hidden="true"></i>/h1<i
@@ -143,38 +142,29 @@
       </div>
     </div>
     <!-- Introduction done -->
-    <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed culpa
-      eligendi autem possimus impedit soluta repellat tempora delectus eum ab
-      dicta explicabo corrupti aperiam repellendus corporis molestias fugit,
-      ipsum velit earum! Sunt, sapiente possimus. Sequi laborum consequuntur
-      alias, explicabo accusamus magni veniam, tempore assumenda eaque cum ea
-      repellat in cupiditate nostrum impedit, iste itaque unde necessitatibus
-      enim consectetur exercitationem! Ratione ipsum esse distinctio laborum
-      cumque aperiam natus eos in vel earum accusamus ducimus quidem eius ab non
-      corporis corrupti minima ex ut beatae odio, illo voluptas! Odit dolores
-      possimus in et minus recusandae pariatur illum ullam, rerum at molestiae,
-      distinctio commodi consectetur nemo accusantium eos sequi placeat natus?
-      Ad recusandae omnis itaque perferendis consectetur, in laboriosam maxime
-      cumque iusto aut assumenda corrupti quisquam hic quo corporis reiciendis
-      aliquid, amet, maiores alias culpa! Nisi nostrum nulla libero ducimus amet
-      aliquam eveniet dignissimos deserunt quisquam, aliquid fugiat. Natus
-      consequuntur nemo ipsum similique eveniet itaque, impedit vero aliquam ex
-      officia earum velit assumenda, perspiciatis nobis doloremque dicta. Ullam
-      commodi eum eius quos animi quis magni autem, fuga veritatis eaque beatae
-      voluptatibus alias rerum eos similique mollitia, quibusdam id quia veniam
-      aliquam, consectetur doloribus. Veniam illo laboriosam dolorum accusantium
-      necessitatibus voluptatibus. Officia ex quis amet earum perspiciatis eaque
-      vel? Quis rerum, vero doloribus molestiae nobis corporis eligendi ratione
-      ipsum adipisci beatae! Autem, perferendis voluptatibus qui vero culpa ea,
-      dolorem praesentium ratione ullam tenetur magni saepe, quo sunt vitae
-      suscipit voluptates repellat omnis deleniti corrupti. Eius eos earum
-      distinctio officiis libero esse maiores facere molestiae nemo soluta
-      quidem unde qui amet corporis cum sed, suscipit temporibus ipsa placeat
-      adipisci dolorem! Quos eligendi laborum architecto harum esse sequi dicta
-      dolorum ipsam. Totam beatae est voluptas autem ipsum sapiente ipsa modi
-      explicabo, deserunt maxime, itaque non quibusdam minima nulla nam deleniti
-      quam, eligendi eius a eum! Eos!
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      let typed = new Typed(".auto-type", {
+        strings: [
+          "Je m'appelle Axel et je vous présente mon Portfolio où vous trouverez mes différents projets",
+          "J'ai 26ans et toute mes dents.",
+          "J'apprend la programmation.",
+        ],
+        typeSpeed: 25,
+        backSpeed: 25,
+        loop: true,
+      });
+    </script>
+    <div class="grid grid-cols-3">
+      <div class="col-start-2 bg-blue">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident porro
+        molestias, labore explicabo placeat facilis alias rerum beatae ullam
+        reiciendis sit vitae minus exercitationem quo sapiente magni suscipit
+        fugit cum vero quibusdam! Iure, debitis rem, ipsam maiores ipsum dicta
+        dolor in vero numquam facilis tempora autem quam! Accusamus, voluptas
+        iure?
+      </div>
     </div>
   </body>
 </html>

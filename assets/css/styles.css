@@ -11,8 +11,16 @@
   color: red;
 }
 
+.text-blue {
+  color: blue;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .vertical {
-  writing-mode:vertical-lr;
+  writing-mode: vertical-lr;
 }
 
 .no-underline {
@@ -25,6 +33,10 @@
 
 .bg-slate-400 {
   background-color: rgb(148 163 184);
+}
+
+.bg-blue{
+  background-color: blue;
 }
 
 .bg-laptop {
@@ -61,6 +73,10 @@
 
 .grid-cols-3 {
   grid-template-columns: 0.31fr 1fr 1fr;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0.1fr));
 }
 
 .grid-rows-4 {
